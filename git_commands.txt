@@ -1,0 +1,13 @@
+# Commands to add files to Git (run in terminal after navigating to the repository directory)
+
+# Stage all changes (including new files like install_sourcetree.ps1)
+git add .
+
+# Commit the staged changes with a message
+git commit -m "Add SourceTree installation script and other changes"
+
+# Push to the remote repository (if set up)
+git push origin vs-Code
+
+# Optional: Check status before adding
+git status
